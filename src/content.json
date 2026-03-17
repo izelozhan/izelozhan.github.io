@@ -1,11 +1,11 @@
 {
   "sayHello": "Hello",
-  "aboutHeader": "I'm Izel!",
+  "aboutHeader": "This is Izel,",
   "location": {
-    "city": "Houston",
+    "city": "Austin",
     "state": "TX"
   },
-  "aboutSubHeader": "I am a front-end developer, and this is my portfolio",
+  "aboutSubHeader": "Front-end developer who enjoys bringing designs to life on the web!",
   "about": "Graduated originally from Art Conservation & Restoration in Turkey, I discovered my interest in tech, especially UI/UX and Frontend development. After several bootcamps, many certificates, and hours of training, I was able to contribute to some projects as freelancer and contractor. I mostly use these, but still learning new stuff!",
   "menu": [
     {
@@ -85,9 +85,24 @@
     {
       "name": "Angular Material",
       "class": "bg-blue-100 text-blue-800"
+    },
+    {
+      "name": "Java",
+      "class": "bg-yellow-100 text-yellow-800"
+    },
+    {
+      "name": "Swift",
+      "class": "bg-purple-100 text-purple-800"
     }
   ],
   "certifications": [
+    {
+      "name": "iOS Engineer Career Path",
+      "provider": "Codecademy",
+      "providerLogo": "/assets/2024-10-10 14_40_07-(2) Codecademy_ Posts _ LinkedIn.png",
+      "link": "https://www.codecademy.com/profiles/izelozhan/certificates/61f8af7dd831aa000f1e63b6",
+      "year": 2025
+    },
     {
       "name": "Front-End Engineer Career Path",
       "provider": "Codecademy",
@@ -194,7 +209,7 @@
       "role": "Frontend Developer (Contractor)",
       "tech": "Angular, Tailwind, SCSS, TypeScript",
       "description": "Upgraded Angular & Angular material, code refactoring, implementing responsive design, internalization (i18n).",
-      "images": [ "/assets/repricer ss2.png"],
+      "images": ["/assets/repricer ss2.png"],
       "year": 2024
     },
     {
@@ -266,11 +281,18 @@
   ],
   "education": [
     {
-      "name": "👩🏻‍💻 Frontend Engineer Bootcamp",
+      "name": "👩🏻‍💻 Software Engineering Job Training Program ",
+      "school": "Year Up United",
+      "location": "Remote",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "name": "👩🏻‍💻 Frontend Engineer & iOS Engineering Bootcamp",
       "school": "Codecademy",
       "location": "Remote",
-      "start": 2023,
-      "end": 2024
+      "start": 2024,
+      "end": 2025
     },
     {
       "name": "🎓 BASc - Conservation & Restoration",
@@ -291,7 +313,6 @@
   "footerRight": "Made with React, ❤️ and Tailwind CSS",
   "linkedInURL": "https://www.linkedin.com/in/izelozhan/",
   "githubURL": "https://github.com/izelozhan",
-  "gmail":  "mailto:izelozhan@gmail.com",
+  "gmail": "mailto:izelozhan@gmail.com",
   "contactMeURL": "https://form.jotform.com/242950556174158"
-  
 }
