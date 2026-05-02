@@ -4,46 +4,46 @@ import WavyAccentCanvas from './WavyAccentCanvas'
 
 const DECO = [
   // right side cluster
-  { id: 1,  sym: '✦', x: '62%', y: '8%',  color: '#e879f9', size: 28, delay: 0.0, dur: 4.0 },
-  { id: 2,  sym: '+', x: '76%', y: '13%', color: '#a78bfa', size: 22, delay: 0.5, dur: 5.0 },
-  { id: 3,  sym: '✦', x: '89%', y: '7%',  color: '#22d3ee', size: 36, delay: 1.0, dur: 3.8 },
-  { id: 4,  sym: '×', x: '91%', y: '34%', color: '#f472b6', size: 26, delay: 0.3, dur: 4.5 },
-  { id: 5,  sym: '✦', x: '83%', y: '54%', color: '#fbbf24', size: 32, delay: 1.5, dur: 5.2 },
-  { id: 6,  sym: '+', x: '93%', y: '70%', color: '#22d3ee', size: 20, delay: 0.7, dur: 4.2 },
-  { id: 7,  sym: '✦', x: '67%', y: '82%', color: '#a78bfa', size: 24, delay: 1.2, dur: 3.5 },
-  { id: 8,  sym: '×', x: '74%', y: '91%', color: '#e879f9', size: 22, delay: 0.9, dur: 4.8 },
+  { id: 1,  sym: '✦', x: '62%', y: '8%',  color: '#e879f9', size: 38, delay: 0.0, dur: 4.0 },
+  { id: 2,  sym: '+', x: '76%', y: '13%', color: '#a78bfa', size: 30, delay: 0.5, dur: 5.0 },
+  { id: 3,  sym: '✦', x: '89%', y: '7%',  color: '#22d3ee', size: 48, delay: 1.0, dur: 3.8 },
+  { id: 4,  sym: '×', x: '91%', y: '34%', color: '#f472b6', size: 36, delay: 0.3, dur: 4.5 },
+  { id: 5,  sym: '✦', x: '83%', y: '54%', color: '#fbbf24', size: 44, delay: 1.5, dur: 5.2 },
+  { id: 6,  sym: '+', x: '93%', y: '70%', color: '#22d3ee', size: 28, delay: 0.7, dur: 4.2 },
+  { id: 7,  sym: '✦', x: '67%', y: '82%', color: '#a78bfa', size: 34, delay: 1.2, dur: 3.5 },
+  { id: 8,  sym: '×', x: '74%', y: '91%', color: '#e879f9', size: 30, delay: 0.9, dur: 4.8 },
   // left edge
-  { id: 9,  sym: '✦', x: '3%',  y: '25%', color: '#f472b6', size: 18, delay: 0.6, dur: 4.6 },
-  { id: 10, sym: '+', x: '5%',  y: '68%', color: '#fbbf24', size: 20, delay: 1.8, dur: 5.5 },
-  { id: 11, sym: '✦', x: '2%',  y: '86%', color: '#a78bfa', size: 16, delay: 1.3, dur: 3.9 },
+  { id: 9,  sym: '✦', x: '3%',  y: '25%', color: '#f472b6', size: 26, delay: 0.6, dur: 4.6 },
+  { id: 10, sym: '+', x: '5%',  y: '68%', color: '#fbbf24', size: 28, delay: 1.8, dur: 5.5 },
+  { id: 11, sym: '✦', x: '2%',  y: '86%', color: '#a78bfa', size: 24, delay: 1.3, dur: 3.9 },
   // top / bottom
-  { id: 12, sym: '+', x: '42%', y: '3%',  color: '#e879f9', size: 16, delay: 0.4, dur: 4.3 },
-  { id: 13, sym: '✦', x: '55%', y: '94%', color: '#22d3ee', size: 20, delay: 2.0, dur: 5.0 },
+  { id: 12, sym: '+', x: '42%', y: '3%',  color: '#e879f9', size: 24, delay: 0.4, dur: 4.3 },
+  { id: 13, sym: '✦', x: '55%', y: '94%', color: '#22d3ee', size: 28, delay: 2.0, dur: 5.0 },
   // extra fill
-  { id: 14, sym: '✦', x: '58%', y: '48%', color: '#fbbf24', size: 14, delay: 1.1, dur: 4.7 },
-  { id: 15, sym: '×', x: '70%', y: '62%', color: '#34d399', size: 18, delay: 0.8, dur: 5.3 },
-  { id: 16, sym: '+', x: '64%', y: '74%', color: '#60a5fa', size: 14, delay: 2.2, dur: 4.0 },
-  { id: 17, sym: '✦', x: '96%', y: '50%', color: '#f472b6', size: 16, delay: 1.6, dur: 4.4 },
-  { id: 18, sym: '✦', x: '57%', y: '22%', color: '#34d399', size: 12, delay: 0.2, dur: 5.8 },
-  { id: 19, sym: '+', x: '80%', y: '40%', color: '#fbbf24', size: 18, delay: 1.4, dur: 3.6 },
-  { id: 20, sym: '×', x: '50%', y: '80%', color: '#a78bfa', size: 16, delay: 0.6, dur: 5.1 },
-  { id: 21, sym: '✦', x: '8%',  y: '48%', color: '#22d3ee', size: 14, delay: 2.4, dur: 4.9 },
-  { id: 22, sym: '+', x: '14%', y: '12%', color: '#f87171', size: 18, delay: 1.7, dur: 4.2 },
-  { id: 23, sym: '✦', x: '28%', y: '92%', color: '#e879f9', size: 14, delay: 0.3, dur: 5.4 },
-  { id: 24, sym: '×', x: '36%', y: '15%', color: '#60a5fa', size: 14, delay: 1.9, dur: 3.7 },
+  { id: 14, sym: '✦', x: '58%', y: '48%', color: '#fbbf24', size: 22, delay: 1.1, dur: 4.7 },
+  { id: 15, sym: '×', x: '70%', y: '62%', color: '#34d399', size: 26, delay: 0.8, dur: 5.3 },
+  { id: 16, sym: '+', x: '64%', y: '74%', color: '#60a5fa', size: 22, delay: 2.2, dur: 4.0 },
+  { id: 17, sym: '✦', x: '96%', y: '50%', color: '#f472b6', size: 24, delay: 1.6, dur: 4.4 },
+  { id: 18, sym: '✦', x: '57%', y: '22%', color: '#34d399', size: 20, delay: 0.2, dur: 5.8 },
+  { id: 19, sym: '+', x: '80%', y: '40%', color: '#fbbf24', size: 26, delay: 1.4, dur: 3.6 },
+  { id: 20, sym: '×', x: '50%', y: '80%', color: '#a78bfa', size: 24, delay: 0.6, dur: 5.1 },
+  { id: 21, sym: '✦', x: '8%',  y: '48%', color: '#22d3ee', size: 22, delay: 2.4, dur: 4.9 },
+  { id: 22, sym: '+', x: '14%', y: '12%', color: '#f87171', size: 26, delay: 1.7, dur: 4.2 },
+  { id: 23, sym: '✦', x: '28%', y: '92%', color: '#e879f9', size: 22, delay: 0.3, dur: 5.4 },
+  { id: 24, sym: '×', x: '36%', y: '15%', color: '#60a5fa', size: 22, delay: 1.9, dur: 3.7 },
 ]
 
 // Soft glowing blobs for background depth
 const BLOBS = [
-  { x: '72%', y: '10%',  color: '#e879f9', size: 320 },
-  { x: '88%', y: '55%',  color: '#a78bfa', size: 260 },
-  { x: '60%', y: '78%',  color: '#22d3ee', size: 200 },
-  { x: '50%', y: '30%',  color: '#fbbf24', size: 180 },
+  { x: '72%', y: '10%',  color: '#e879f9', size: 450 },
+  { x: '88%', y: '55%',  color: '#a78bfa', size: 380 },
+  { x: '60%', y: '78%',  color: '#22d3ee', size: 300 },
+  { x: '50%', y: '30%',  color: '#fbbf24', size: 280 },
 ]
 
 const Header: React.FC<{ Content: DataItem }> = ({ Content }) => {
   return (
-    <div id="home" className="relative overflow-hidden" style={{ minHeight: '100vh', background: '#faf9f7' }}>
+    <div id="home" className="relative overflow-hidden" style={{ minHeight: '100vh', backgroundColor: '#faf9f7', backgroundImage: 'repeating-linear-gradient(transparent, transparent 31px, rgba(147, 197, 253, 0.18) 31px, rgba(147, 197, 253, 0.18) 32px)' }}>
 
       {/* Soft glowing background blobs */}
       {BLOBS.map((b, i) => (
@@ -121,7 +121,7 @@ const Header: React.FC<{ Content: DataItem }> = ({ Content }) => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="font-syne leading-none mb-2"
             style={{
-              fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+              fontSize: 'clamp(3rem, 5.5vw, 4.75rem)',
               fontWeight: 800,
               letterSpacing: '-0.02em',
               background: 'linear-gradient(135deg, #e879f9 20%, #a78bfa 100%)',
@@ -151,7 +151,7 @@ const Header: React.FC<{ Content: DataItem }> = ({ Content }) => {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="font-syne leading-tight mb-4"
             style={{
-              fontSize: 'clamp(2.2rem, 5vw, 4rem)',
+              fontSize: 'clamp(2rem, 4.5vw, 3.75rem)',
               fontWeight: 800,
               color: '#1a1a1a',
               letterSpacing: '-0.01em',
