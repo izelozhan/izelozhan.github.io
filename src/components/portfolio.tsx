@@ -91,7 +91,7 @@ interface ProjectRowProps {
   index: number
 }
 
-function ProjectRow({ active, onHover, title, link, role, tech, description, year, images, index }: ProjectRowProps) {
+function ProjectRow({ active, onHover, title, link, role, tech, description, images, index }: ProjectRowProps) {
   return (
     <motion.div
       initial={{ opacity: 0, x: -16 }}
