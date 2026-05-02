@@ -1,16 +1,26 @@
-# My Portfolio Project
+# izel ozhan — portfolio
 
-This is a simple portfolio project built using **React** and **Tailwind CSS**. The content of the portfolio can be customized by editing the `content.json` file.
+Personal portfolio site built with React, TypeScript, and Framer Motion. Live at [izelozhan.github.io](https://izelozhan.github.io).
 
-## Features
+## Stack
 
-- **Responsive design** with Tailwind CSS.
-- Dynamic content fetched from `content.json`.
-- Easily customizable for personal use.
+- **React 18** + **TypeScript** + **Vite**
+- **Tailwind CSS** — custom color palette, Syne + Raleway fonts
+- **Framer Motion** — scroll animations, hover interactions, AnimatePresence
+- **Canvas 2D** — animated wavy gradient accent
+- **Fancybox** — project image gallery lightbox
 
-## To Run
+## Getting Started
 
 ```bash
 npm install
-
 npm run dev
+```
+
+## Customization
+
+All content (projects, skills, certifications, education, links) lives in `src/content.json` — edit that file to update the site.
+
+## Deploy
+
+Pushes to `main` automatically deploy via GitHub Actions.
