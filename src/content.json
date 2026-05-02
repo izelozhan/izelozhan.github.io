@@ -26,74 +26,31 @@
     }
   ],
   "skills": [
-    {
-      "name": "HTML",
-      "class": "bg-blue-100 text-blue-800"
-    },
-    {
-      "name": "CSS",
-      "class": "bg-green-100 text-green-800"
-    },
-    {
-      "name": "JavaScript",
-      "class": "bg-yellow-100 text-yellow-800"
-    },
-    {
-      "name": "React",
-      "class": "bg-blue-100 text-blue-800"
-    },
-    {
-      "name": "Tailwind CSS",
-      "class": "bg-purple-100 text-purple-800"
-    },
-    {
-      "name": "TypeScript",
-      "class": "bg-red-100 text-red-800"
-    },
-    {
-      "name": "Node.js",
-      "class": "bg-indigo-100 text-indigo-800"
-    },
-    {
-      "name": "Bootstrap",
-      "class": "bg-pink-100 text-pink-800"
-    },
-    {
-      "name": "Redux",
-      "class": "bg-blue-100 text-blue-800"
-    },
-    {
-      "name": "NextJS",
-      "class": "bg-green-100 text-green-800"
-    },
-    {
-      "name": "AngularJS",
-      "class": "bg-yellow-100 text-yellow-800"
-    },
-    {
-      "name": "UI",
-      "class": "bg-blue-100 text-blue-800"
-    },
-    {
-      "name": "SCSS",
-      "class": "bg-purple-100 text-purple-800"
-    },
-    {
-      "name": "Figma",
-      "class": "bg-red-100 text-red-800"
-    },
-    {
-      "name": "Angular Material",
-      "class": "bg-blue-100 text-blue-800"
-    },
-    {
-      "name": "Java",
-      "class": "bg-yellow-100 text-yellow-800"
-    },
-    {
-      "name": "Swift",
-      "class": "bg-purple-100 text-purple-800"
-    }
+    { "name": "JavaScript", "class": "" },
+    { "name": "TypeScript", "class": "" },
+    { "name": "Swift", "class": "" },
+    { "name": "Java", "class": "" },
+    { "name": "HTML5", "class": "" },
+    { "name": "SQL", "class": "" },
+    { "name": "React", "class": "" },
+    { "name": "Next.js", "class": "" },
+    { "name": "Angular", "class": "" },
+    { "name": "SwiftUI", "class": "" },
+    { "name": "Tailwind CSS", "class": "" },
+    { "name": "SASS/SCSS", "class": "" },
+    { "name": "Material UI", "class": "" },
+    { "name": "Node.js", "class": "" },
+    { "name": "Nest.js", "class": "" },
+    { "name": "GraphQL", "class": "" },
+    { "name": "MongoDB", "class": "" },
+    { "name": "Redis", "class": "" },
+    { "name": "Prisma", "class": "" },
+    { "name": "AWS", "class": "" },
+    { "name": "RESTful APIs", "class": "" },
+    { "name": "Jest", "class": "" },
+    { "name": "Git", "class": "" },
+    { "name": "Figma", "class": "" },
+    { "name": "Xcode", "class": "" }
   ],
   "certifications": [
     {
