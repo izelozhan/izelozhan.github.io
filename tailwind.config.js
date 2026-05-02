@@ -5,19 +5,25 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/content.json"
   ],
-  
   theme: {
     extend: {
+      fontFamily: {
+        syne: ['Syne', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      },
       colors: {
-        'section-header': '#6a6763',
-        'bg-portfolio': 'rgb(243 244 246 / 46%)',
-        'nav-bg': "rgb(255 255 255 / 34%)",
-        'nav-neutral': "#00000085",
-        'icon': '#333',
-        "pinkish": 'rgb(165 48 97 / 80%);'
+        cream: '#faf9f7',
+        'section-header': '#1a1a1a',
+        'bg-portfolio': '#f8f7f5',
+        'nav-bg': 'rgba(250,249,247,0.85)',
+        'fuchsia-accent': '#e879f9',
+        'violet-accent': '#a78bfa',
+        'cyan-accent': '#22d3ee',
+        'rose-accent': '#f472b6',
+        'yellow-accent': '#fbbf24',
       },
       screens: {
-        xs: '480px', // Define your xs breakpoint here
+        xs: '480px',
       },
     },
   },
