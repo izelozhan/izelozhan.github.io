@@ -15,7 +15,7 @@ const Education: React.FC<{ Content: DataItem }> = ({ Content }) => {
       </div>
 
       <motion.div
-        className="flex flex-col lg:flex-row justify-center gap-10 flex-wrap"
+        className="flex flex-col gap-3 max-w-2xl mx-auto w-full"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -27,12 +27,14 @@ const Education: React.FC<{ Content: DataItem }> = ({ Content }) => {
             <motion.div
               key={index}
               variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-              className="text-center px-4"
+              className="flex items-center justify-between gap-4"
             >
-              <p className="text-sm text-gray-500 mb-1">{edu.name}</p>
-              <h4 className="font-syne font-bold text-lg" style={{ color: '#1a1a1a' }}>{edu.school}</h4>
-              <p className="text-sm text-gray-400">{edu.location}</p>
-              <p className="text-xs mt-1 font-medium" style={{ color: '#e879f9' }}>
+              <div className="flex items-center gap-2 min-w-0">
+                <h4 className="font-syne font-bold text-sm whitespace-nowrap" style={{ color: '#1a1a1a' }}>{edu.school}</h4>
+                <span style={{ color: 'rgba(0,0,0,0.15)' }}>·</span>
+                <p className="text-sm text-gray-500 truncate">{edu.name}</p>
+              </div>
+              <p className="text-xs font-medium whitespace-nowrap flex-shrink-0" style={{ color: '#e879f9' }}>
                 {edu.start} — {edu.end}
               </p>
             </motion.div>
